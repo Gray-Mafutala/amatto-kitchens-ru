@@ -8,10 +8,46 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "primary-yellow": "#ffcc29",
+        "dark-gray": "#39373a",
+      },
+
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "bg-hero-section":
+          'url("../assets/images/home-page__bg-hero-section.jpg")',
+      },
+
+      fontFamily: {
+        commissioner: ["var(--font-commissioner)"],
+        "playfair-display": ["var(--font-playfair-display)"],
+      },
+
+      animation: {
+        smoothAppearHorizontal: "smooth-appear-horizontal .4s ease forwards",
+      },
+
+      keyframes: {
+        "smooth-appear-horizontal": {
+          to: {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+      },
+
+      screens: {
+        mobile: "320px",
+        mobileM: "475px",
+        mobileL: "580px",
+        mobileXL: "640px",
+        tablet: "768px",
+        tabletM: "896px",
+        tabletL: "920px",
+        laptop: "1024px",
+        laptopM: "1200px",
+        laptopL: "1340px",
+        desktop: "1480px",
       },
     },
   },
