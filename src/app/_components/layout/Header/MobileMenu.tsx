@@ -24,16 +24,16 @@ const MobileMenu = ({ isOpen, onClose }: Props) => {
         onClick={onClose}
         className={
           isOpen
-            ? "fixed inset-0 w-full h-full bg-black/60 backdrop-blur-sm z-20"
-            : "fixed inset-0 w-full h-full bg-black/60 backdrop-blur-sm z-20 translate-x-[100%]"
+            ? `fixed inset-0 w-full h-full bg-black/60 backdrop-blur-sm z-20`
+            : `fixed inset-0 w-full h-full bg-black/60 backdrop-blur-sm z-20 translate-x-[100%]`
         }
       >
-        {/* outer container to add scrollbar if  */}
+        {/* outer container to add scrollbar */}
         <div
           key={new Date().getTime()}
           onClick={(e) => e.stopPropagation()}
-          className="overflow-y-scroll bg-white px-4 pb-10 pt-20 mobileXL:pt-28
-          tablet:pt-32 w-full h-screen mobileL:h-auto mobileL:max-w-md ml-auto 
+          className="overflow-y-auto pt-20 mobileXL:pt-28 tablet:pt-32 pb-6 px-4
+          bg-white block w-full h-screen mobileL:max-w-md ml-auto
           opacity-0 translate-x-5 animate-smoothAppearHorizontal"
         >
           {/* inner container */}

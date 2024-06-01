@@ -13,11 +13,6 @@ const config: Config = {
         "dark-gray": "#39373a",
       },
 
-      backgroundImage: {
-        "bg-hero-section":
-          'url("../assets/images/home-page__bg-hero-section.jpg")',
-      },
-
       fontFamily: {
         commissioner: ["var(--font-commissioner)"],
         "playfair-display": ["var(--font-playfair-display)"],
@@ -25,6 +20,8 @@ const config: Config = {
 
       animation: {
         smoothAppearHorizontal: "smooth-appear-horizontal .4s ease forwards",
+        changeBgHeroSection:
+          "change-bg-hero-section 7.5s ease-in infinite alternate",
       },
 
       keyframes: {
@@ -32,6 +29,26 @@ const config: Config = {
           to: {
             opacity: "1",
             transform: "translateX(0)",
+          },
+        },
+
+        "change-bg-hero-section": {
+          // bg-1
+          "0%, 33%": {
+            backgroundImage:
+              'url("../assets/images/home-page__bg-1-hero-section.jpg")',
+          },
+
+          // bg-2
+          "34%, 67%": {
+            backgroundImage:
+              'url("../assets/images/home-page__bg-2-hero-section.jpg")',
+          },
+
+          // bg-3
+          "68%, 100%": {
+            backgroundImage:
+              'url("../assets/images/home-page__bg-3-hero-section.jpg")',
           },
         },
       },

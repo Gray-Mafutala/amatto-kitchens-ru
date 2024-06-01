@@ -18,4 +18,11 @@
   .section-full-w {
     @apply -mx-4 tablet:-mx-6 laptop:-mx-8 laptopM:-mx-10 laptopL:-mx-14;
   }
+
+  .title-2-section {
+    @apply text-center text-2xl mobileL:text-3xl mobileXL:text-4xl tablet:text-[42px]
+    !leading-[1.3] font-playfair-display font-semibold relative after:absolute after:block
+    after:w-[100px] after:h-[5px] after:left-1/2 after:-bottom-7 after:-translate-x-1/2
+    after:bg-primary-yellow after:rounded-lg;
+  }
 }
