@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${commissioner.variable} ${playfairDisplay.variable} antialiased
         max-w-screen-desktop w-full mx-auto min-h-screen flex flex-col
-        justify-between responsive-px border-2 border-amber-700`}
+        justify-between responsive-px`}
       >
         <Header />
         {children}

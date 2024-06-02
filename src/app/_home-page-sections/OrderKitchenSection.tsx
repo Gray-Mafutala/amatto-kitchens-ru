@@ -47,8 +47,8 @@ const OrderKitchenSection = () => {
         </h4>
 
         <button
-          className="mt-4 text-lg tablet:text-xl px-5 mobileXL:px-8 tablet:px-14
-          rounded-[42px] py-2 font-medium text-dark-gray bg-primary-yellow
+          className="mt-4 text-lg tablet:text-xl px-5 mobileXL:px-8
+          rounded-[42px] py-3 font-medium text-dark-gray bg-primary-yellow
           hover:text-primary-yellow hover:bg-transparent
           hover:shadow-[0_0_0_2px_#ffcc29] duration-300"
         >

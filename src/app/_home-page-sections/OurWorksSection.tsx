@@ -20,15 +20,15 @@ const gallery = [
 const OurWorksSection = () => {
   return (
     <section
-      className="flex flex-col items-center gap-y-10 mobileXL:gap-y-16
-      laptop:gap-y-20"
+      className="flex flex-col items-center"
     >
       {/* section title */}
       <h2 className="title-2-section">Наши работы</h2>
 
       {/* gallery */}
       <div
-        className="grid grid-cols-1 mobileXL:grid-cols-2 laptopM:grid-cols-3
+        className="mt-10 mobileXL:mt-16 laptop:mt-20
+        grid grid-cols-1 mobileXL:grid-cols-2 laptopM:grid-cols-3
         gap-6 w-full"
       >
         {gallery.map((img, index) => (
@@ -88,6 +88,15 @@ const OurWorksSection = () => {
           </div>
         ))}
       </div>
+
+      <button
+        className="mt-6 mobileXL:mt-8 text-lg tablet:text-xl px-5 mobileXL:px-8 tablet:px-14
+          rounded-[42px] py-3 font-medium text-dark-gray bg-primary-yellow
+          hover:text-primary-yellow hover:bg-transparent
+          hover:shadow-[0_0_0_2px_#ffcc29] duration-300"
+      >
+        Раскрыть Ещё
+      </button>
     </section>
   );
 };
