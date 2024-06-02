@@ -10,6 +10,10 @@
   body {
     @apply bg-white text-dark-gray font-commissioner;
   }
+
+  button{
+    @apply select-none
+  }
 }
 @layer components {
   .responsive-px {
@@ -22,7 +26,7 @@
   .title-2-section {
     @apply text-center text-2xl mobileL:text-3xl mobileXL:text-4xl tablet:text-[42px]
     !leading-[1.3] font-playfair-display font-semibold relative after:absolute after:block
-    after:w-[100px] after:h-[5px] after:left-1/2 after:-bottom-7 after:-translate-x-1/2
-    after:bg-primary-yellow after:rounded-lg;
+    after:w-[100px] after:h-[5px] after:left-1/2 after:-bottom-4 after:mobileL:-bottom-5 after:mobileXL:-bottom-7 
+    after:-translate-x-1/2 after:bg-primary-yellow after:rounded-lg;
   }
 }

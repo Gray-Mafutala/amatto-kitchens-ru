@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import AmattoLogo from "@/assets/images/header__amatto-logo-black.svg";
+import AmattoLogo from "@/assets/images/amatto-logo-black.svg";
 import { useState } from "react";
 import MenuLinks from "./MenuLinks";
 import RightContent from "./RightContent";
@@ -22,12 +22,11 @@ const Header = () => {
 
       {/* Header itself */}
       <header
-        className="z-30 bg-white flex justify-center items-center
+        className="section-full-w z-30 bg-white flex justify-center items-center
         pt-1 pb-3 mobileXL:py-5 tablet:py-7"
       >
         <nav
-          className="max-w-screen-desktop w-full flex items-center justify-between
-          gap-x-16"
+          className="responsive-px flex items-center justify-between gap-x-16 w-full"
         >
           {/* site logo */}
           <Link

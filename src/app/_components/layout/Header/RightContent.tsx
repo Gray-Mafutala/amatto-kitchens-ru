@@ -18,7 +18,7 @@ const RightContent = ({
       <Link
         href="tel:+37368159759"
         onClick={closeMobileMenu}
-        className={`bg-primary-yellow rounded-[40px] whitespace-nowrap
+        className={`bg-primary-yellow rounded-[40px] whitespace-nowrap select-none
         hover:bg-transparent hover:text-primary-yellow hover:shadow-[0_0_0_2px_#ffcc29]
         duration-300 ${btnTelAddStyles}`}
       >

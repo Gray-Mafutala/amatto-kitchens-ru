@@ -18,6 +18,11 @@ const config: Config = {
         "playfair-display": ["var(--font-playfair-display)"],
       },
 
+      backgroundImage: {
+        "order-kitchen":
+          'url("../assets/images/home-page__bg-order-kitchen.png")',
+      },
+
       animation: {
         smoothAppearHorizontal: "smooth-appear-horizontal .4s ease forwards",
         changeBgHeroSection:
