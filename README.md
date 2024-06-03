@@ -15,5 +15,5 @@
 ![home-page-order-kitchen-section](/readme-img/home-page__order-kitchen-section.png)
 ![home-page-our-advantages-section](/readme-img/home-page__our-advantages.png)
 ![home-page-buy-installments-section](/readme-img/home-page__buy-installments-section.png)
-![home-page-get-free-kitchen-design-section](/readme-img/home-page__get-free-kitchen-design-section)
+![home-page-get-free-kitchen-design-section](/readme-img/home-page__get-free-kitchen-design-section.png)
 ![home-page-blog-section](/readme-img/home-page__blog.png)
