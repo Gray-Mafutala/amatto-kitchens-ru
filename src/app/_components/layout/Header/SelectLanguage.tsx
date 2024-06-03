@@ -58,7 +58,7 @@ const SelectLanguage = () => {
           {/* up-arrow */}
           <span
             className="absolute w-0 h-0 border-8 border-t-0 border-x-transparent
-            border-b-dark-gray right-[119px] top-[70px] -rotate-90
+            border-b-dark-gray right-[116px] top-[70px] -rotate-90
             tablet:right-2 tablet:-top-[6px] tablet:rotate-0"
           ></span>
 
