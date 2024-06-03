@@ -1,10 +1,8 @@
-import React from "react";
-
+import Image from "next/image";
 import WarantyBestPriceIcon from "@/assets/images/warranty-best-price-icon.svg";
 import WarantyPaymentIcon from "@/assets/images/warranty-payment-icon.svg";
 import WarantyTimeIcon from "@/assets/images/warranty-time-icon.svg";
 import WarantyQualityIcon from "@/assets/images/warranty-quality-icon.svg";
-import Image from "next/image";
 
 const ourAdvantages = [
   {
@@ -40,7 +38,7 @@ const OurAdvantagesSection = () => {
       laptop:gap-y-20"
     >
       {/* section title */}
-      <h2 className="title-2-section">Наши работы</h2>
+      <h2 className="title-2-section">Наши преймущества</h2>
 
       <div className="grid grid-cols-1 mobileXL:grid-cols-2 laptopM:grid-cols-4 gap-6">
         {ourAdvantages.map(({ icon, title, outline }) => (
@@ -48,17 +46,18 @@ const OurAdvantagesSection = () => {
             key={title}
             className="w-full py-7 px-5 rounded-[10px] bg-white text-center
             shadow-[0_2px_8px_0px_#00000026] flex flex-col items-center gap-y-5
-            cursor-pointer hover:scale-105 group duration-300"
+            cursor-pointer hover:bg-primary-yellow hover:scale-105 group
+            duration-300"
           >
             <Image
               src={icon}
               alt={title}
-              className="w-12 h-12 object-contain"
+              className="w-12 h-12 object-contain group-hover:invert duration-300"
             />
 
             <h3
               className="font-playfair-display uppercase text-xl  mobileXL:text-2xl
-              font-semibold group-hover:text-primary-yellow duration-300"
+              font-semibold"
             >
               {title}
             </h3>

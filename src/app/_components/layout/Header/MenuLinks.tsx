@@ -6,11 +6,11 @@ import React from "react";
 
 const menuLinks = [
   { title: "Главная", link: "/" },
-  { title: "О нас", link: "/about" },
-  { title: "Каталог", link: "/catalog" },
-  { title: "Рассрочка", link: "/installment-payment" },
+  { title: "О нас", link: "/#about-us" },
+  { title: "Каталог", link: "/#catalog" },
+  { title: "Рассрочка", link: "/#buy-in-installments" },
   { title: "Блог", link: "/blog" },
-  { title: "Контакты", link: "/contacts" },
+  { title: "Контакты", link: "/#contacts" },
 ];
 
 type Props = {

@@ -20,16 +20,16 @@ const gallery = [
 const OurWorksSection = () => {
   return (
     <section
-      className="flex flex-col items-center"
+      id="catalog"
+      className="flex flex-col items-center gap-y-10 mobileXL:gap-y-16 laptop:gap-y-20"
     >
       {/* section title */}
       <h2 className="title-2-section">Наши работы</h2>
 
       {/* gallery */}
       <div
-        className="mt-10 mobileXL:mt-16 laptop:mt-20
-        grid grid-cols-1 mobileXL:grid-cols-2 laptopM:grid-cols-3
-        gap-6 w-full"
+        className="grid grid-cols-1 mobileXL:grid-cols-2 laptopM:grid-cols-3 gap-6
+        w-full"
       >
         {gallery.map((img, index) => (
           // card
