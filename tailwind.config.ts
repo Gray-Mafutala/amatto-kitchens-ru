@@ -23,6 +23,7 @@ const config: Config = {
           'url("../assets/images/home-page__bg-order-kitchen.png")',
         "subscription-section-mask":
           'url("../assets/images/subscription-bg-mask.svg")',
+        "cover-article": 'url("../assets/images/blog-bg-article.png")',
       },
 
       animation: {

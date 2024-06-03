@@ -34,7 +34,7 @@ const ContainerBlogArticles = () => {
       {blogArticles.map(({ cover, date, title, summary }) => (
         <Link
           key={title}
-          href="/blog"
+          href="/blog/article"
           className="bg-gray-100 rounded-[10px] p-5 flex flex-col
           shadow-[0_2px_8px_0px_#00000026] cursor-pointer border-2
           border-transparent hover:border-primary-yellow group

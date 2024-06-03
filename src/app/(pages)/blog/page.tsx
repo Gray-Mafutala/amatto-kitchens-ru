@@ -3,7 +3,7 @@ import HeroSection from "./HeroSection";
 import ContainerBlogArticles from "@/app/_components/common/ContainerBlogArticles";
 import GetFreeKitchenDesignSection from "@/app/_components/common/GetFreeKitchenDesignSection";
 
-const blog = () => {
+const BlogPage = () => {
   return (
     <main
       className="grow flex flex-col gap-y-6 mobileXL:gap-y-8 tablet:gap-y-12
@@ -19,4 +19,4 @@ const blog = () => {
   );
 };
 
-export default blog;
+export default BlogPage;

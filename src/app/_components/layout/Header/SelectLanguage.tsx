@@ -16,7 +16,7 @@ const SelectLanguage = () => {
     <div className="flex flex-col relative">
       {/* current language */}
       <button
-        onMouseDown={toggleDisplay}
+        onClick={toggleDisplay}
         className="flex items-center justify-center py-1 px-3 rounded-[54px]
         bg-gray-100 border-[0.5px] border-[#ddd] whitespace-nowrap
         hover:border-primary-yellow hover:shadow-[0_0_0_1px_#ffcc29]
